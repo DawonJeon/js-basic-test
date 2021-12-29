@@ -11,3 +11,11 @@ const result;
 console.log(result)
 
 // 출력 값 2019/4/26 11:34:27
+
+import solution from "../../src/toOneFromTen/problemNine";
+
+
+test("Array value same as [2019/04/26 11:34:27].", () => {
+  expect(solution()).toEqual(["2019/04/26 11:34:27"]);
+});
+

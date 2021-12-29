@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "babel-node ./src/toOneFromTen/problemTen.js"
+
   },
   "keywords": [],
   "author": "",
